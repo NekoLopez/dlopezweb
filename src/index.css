@@ -72,6 +72,14 @@ h1,h2,h3,.logo,.nav-links a, #navLinks a{font-family: "Space Grotesk", sans-seri
     animation: pulse 1.8s infinite;
 }
 
+.bg-glow {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    background: radial-gradient(circle at 15% 20%, rgba(61, 220, 151, 0.12), transparent 40%), radial-gradient(circle at 85% 10%, rgba(124, 92, 255, 0.14), transparent 45%), radial-gradient(circle at 50% 90%, rgba(61, 201, 220, 0.10), transparent 45%);
+}
+
 @keyframes fadeUp{ from{opacity:0; transform:translateY(24px);} to{opacity:1; transform:translateY(0);} }
 @keyframes pulse{ 0%,100%{opacity:1;} 50%{opacity:.35;} }
 

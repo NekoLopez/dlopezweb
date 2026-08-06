@@ -43,6 +43,8 @@ const Header = () => {
     }, []);
 
     return (
+        <>
+        <div className="bg-glow"></div>
         <header className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-[6%] py-5 backdrop-blur-[14px] bg-[rgba(10,14,20,0.55)] border-b border-[rgba(255,255,255,0.06)] transition-[padding] duration-300 ease-in-out">
             <div className="font-bold text-[1.3rem] tracking-[0.5px]">DL</div>
             <ul className={`flex gap-9 list-none ${open ? "open" : ""}`} id="navLinks">
@@ -66,6 +68,7 @@ const Header = () => {
                 <FontAwesomeIcon icon={faBars} />
             </button>
         </header>
+        </>
     )
 }
 
