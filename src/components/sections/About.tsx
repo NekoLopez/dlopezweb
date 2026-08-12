@@ -13,7 +13,7 @@ const About = () => {
                 <img src={DL} />
             </div>
             <div className="about-text">
-                <p className="leading-[1.75] text-[1.15rem] text-[#8a94a8] mb-[18px]">Soy <strong>Daniel López</strong>, desarrollador frontend con más de <strong>3 años de experiencia en diseño</strong>, maquetado y desarrollo web. Trabajo principalmente con <strong>HTML5, CSS3, Bootstrap y jQuery</strong>, y he complementado mi perfil con <strong>React y Tailwind CSS</strong> a nivel básico.</p>
+                <p className="leading-[1.75] text-[1.15rem] text-[#8a94a8] mb-[18px]">Soy <strong>Daniel López</strong>, desarrollador frontend con más de <strong>5 años de experiencia en diseño</strong>, maquetado y desarrollo web. Trabajo principalmente con <strong>HTML5, CSS3, Bootstrap y jQuery</strong>, y he complementado mi perfil con <strong>React y Tailwind CSS</strong> a nivel básico.</p>
                 <p className="leading-[1.75] text-[1.15rem] text-[#8a94a8] mb-[18px]">Una parte importante de mi trabajo es tomar la documentación de una API y convertirla en una integración real dentro del sitio: formularios que envían datos, contenido dinámico, servicios de terceros funcionando sin fricción para el usuario final.</p>
             </div>
         </div>
