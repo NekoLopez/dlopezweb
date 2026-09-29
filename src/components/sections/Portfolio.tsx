@@ -3,6 +3,7 @@ import limacEspana from "../../assets/images/limac_espana.jpg"
 import Button from "../ui/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
   return (
@@ -37,15 +38,30 @@ const Portfolio = () => {
             
         </div>
 
-        <div className="flex justify-between flex-wrap border border-[#232c40] bg-[#131926] py-[24px] px-[26px] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
-            <div className="flex gap-4 max-w-[600px] items-start">
-                <div className="w-[52px] h-[52px] rounded-[14px] flex items-center justify-center bg-[linear-gradient(135deg,#3ddc97_0%,#3dc9dc_50%,#7c5cff_100%)] text-[1.3rem] text-[#06120c] mb-[20px] shrink-0"><FontAwesomeIcon icon={faLinkedin} /></div>
-                <p className="text-[#8a94a8] text-[1.05rem] leading-[1.6]">Estos proyectos corresponden a experiencia laboral previa. Puedes revisar mi historial completo en LinkedIn o conversamos directamente sobre mi experiencia.</p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[26px] mb-6">
+
+            <div className="flex justify-end gap-[26px] flex-wrap border border-[#232c40] bg-[#131926] py-[24px] px-[26px] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
+                <div className="flex gap-4 items-start flex-col lg:flex-row">
+                    <div className="w-[52px] h-[52px] rounded-[14px] flex items-center justify-center bg-[linear-gradient(135deg,#3ddc97_0%,#3dc9dc_50%,#7c5cff_100%)] text-[1.3rem] text-[#06120c] shrink-0 mx-auto lg:mx-0"><FontAwesomeIcon icon={faLinkedin} /></div>
+                    <p className="text-[#8a94a8] text-[1.05rem] leading-[1.6]">Estos proyectos corresponden a experiencia laboral previa. Puedes revisar mi historial completo en LinkedIn o conversamos directamente sobre mi experiencia.</p>
+                </div>
+                <Button onClick={()=>{
+                    window.open("https://www.linkedin.com/in/daniel-angel-lopez-cribilleros", "_blank");
+                }}><FontAwesomeIcon icon={faLinkedin} className="text-[18px]" /> Linkedin</Button>
             </div>
-            <Button onClick={()=>{
-                window.open("https://www.linkedin.com/in/daniel-angel-lopez-cribilleros", "_blank");
-            }}><FontAwesomeIcon icon={faLinkedin} className="text-[18px]" /> Linkedin</Button>
+
+            <div className="flex justify-end gap-[26px] flex-wrap border border-[#232c40] bg-[#131926] py-[24px] px-[26px] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
+                <div className="flex gap-4 items-start flex-col lg:flex-row">
+                    <div className="w-[52px] h-[52px] rounded-[14px] flex items-center justify-center bg-[linear-gradient(135deg,#3ddc97_0%,#3dc9dc_50%,#7c5cff_100%)] text-[1.3rem] text-[#06120c] shrink-0 mx-auto lg:mx-0"><FontAwesomeIcon icon={faFile} /></div>
+                    <p className="text-[#8a94a8] text-[1.05rem] leading-[1.6]">Adicionalmente puede obtener información sobre mis estudios, habilidades y experiencia laboral descargando el siguiente currículum.</p>
+                </div>
+                <Button onClick={()=>{
+                    window.open("https://dlopezweb.com/assets/pdf/CVDanielLopez.pdf", "_blank");
+                }}><FontAwesomeIcon icon={faFile} className="text-[18px]" /> Descargar CV</Button>
+            </div>
+
         </div>
+
     </section>
     </>
   )

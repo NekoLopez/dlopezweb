@@ -2,6 +2,7 @@ import Button from "../ui/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
   return (
@@ -17,6 +18,9 @@ const Hero = () => {
             <Button onClick={()=>{
                 window.open("https://www.linkedin.com/in/daniel-angel-lopez-cribilleros", "_blank");
             }}><FontAwesomeIcon icon={faLinkedin} className="text-[18px]" /> Linkedin</Button>
+            <Button onClick={()=>{
+              window.open("https://dlopezweb.com/assets/pdf/CVDanielLopez.pdf","_blank");
+            }}><FontAwesomeIcon icon={faFile} className="text-[18px]" /> Descargar CV</Button>
         </div>
     </section>
     </>
