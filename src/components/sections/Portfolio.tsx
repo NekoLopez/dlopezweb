@@ -15,7 +15,7 @@ const Portfolio = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[26px] mb-6">
             <div className="border border-[#232c40] bg-[#131926] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
-                <a href="/portafolio/002.html" target="_blank">
+                <a href="https://proyectolimac.dlopezweb.com/002.html" target="_blank">
                     <div>
                         <img src={limacEspana} />
                     </div>
