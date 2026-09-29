@@ -10,7 +10,7 @@ const Portfolio = () => {
     <>
     <section id="portafolio" className="py-[120px] px-[6%] relative">
         <div className="section-head max-w-[640px] mb-[64px]">
-            <span className="text-[.85rem] font-semibold tracking-[2px] uppercase text-[#3dc9dc]">Portafolio</span>
+            <span className="text-[.85rem] font-semibold tracking-[2px] uppercase text-[#3dc9dc]">Proyectos</span>
             <h2 className="tracking-[-1px] mt-[10px] text-[clamp(1.9rem,3.6vw,2.8rem)] font-bold leading-normal">Proyectos en los que he trabajado</h2>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[26px] mb-6">
