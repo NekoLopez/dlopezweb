@@ -8,10 +8,10 @@ const Footer = () => {
       <footer className="py-[40px] px-[6%] border-t border-t-[#232c40] flex justify-between items-center text-[#8a94a8] text-[.85rem] flex-wrap gap-[16px]">
         <span>© 2026 Daniel López. Todos los derechos reservados.</span>
         <div className="flex gap-[16px]">
-          <a href="mailto:dlopezc90@gmail.com" className="text-[1.1rem]">
+          <a href="mailto:dlopezc90@gmail.com" className="text-[1.1rem]" aria-label="Enviar email">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="https://www.linkedin.com/in/daniel-angel-lopez-cribilleros" target="_blank" className="text-[1.1rem]">
+          <a href="https://www.linkedin.com/in/daniel-angel-lopez-cribilleros" target="_blank" className="text-[1.1rem]" aria-label="Ir a Linkedin profile">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>

@@ -64,7 +64,7 @@ const Header = () => {
                     </li>
                 ))}
             </ul>
-            <button className="block md:hidden bg-none border-0 text-[#e8ecf3] text-[1.4rem] cursor-pointer" id="menuToggle" onClick={() => setOpen(!open)}>
+            <button className="block md:hidden bg-none border-0 text-[#e8ecf3] text-[1.4rem] cursor-pointer" id="menuToggle" aria-label="Menu" onClick={() => setOpen(!open)}>
                 <FontAwesomeIcon icon={faBars} />
             </button>
         </header>
