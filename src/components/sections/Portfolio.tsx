@@ -16,8 +16,8 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[26px] mb-6">
             <div className="border border-[#232c40] bg-[#131926] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
                 <a href="https://proyectolimac.dlopezweb.com/002.html" target="_blank">
-                    <div>
-                        <img src={limacEspana} alt="Proyecto 1" />
+                    <div className="imagen_proy">
+                        <img src={limacEspana} alt="Proyecto 1"  width="650" height="363" />
                     </div>
                     <div className="py-[24px] px-[26px]">
                         <h3 className="text-[1.2rem] mb-[6px] font-semibold">LIMAC España</h3>
@@ -27,8 +27,8 @@ const Portfolio = () => {
             </div>
 
             <div className="border border-[#232c40] bg-[#131926] rounded-[20px] overflow-hidden relative transition-[transform,box-shadow,border-color] duration-350 ease-[ease]">
-                <div>
-                    <img src={limac} alt="Proyecto 2" />
+                <div className="imagen_proy">
+                    <img src={limac} alt="Proyecto 2" width="650" height="363" />
                 </div>
                 <div className="py-[24px] px-[26px]">
                     <h3 className="text-[1.2rem] mb-[6px] font-semibold">LIMAC</h3>

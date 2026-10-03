@@ -10,7 +10,7 @@ const About = () => {
         </div>
         <div className="about-grid grid gap-[60px] items-center grid-cols-1 md:grid-cols-[0.9fr_1.4fr]">
             <div className="about-photo aspect-[1/1] rounded-[24px] relative overflow-hidden border border-[#232c40] flex items-center justify-center">
-                <img src={DL} alt="Daniel" />
+                <img src={DL} alt="Daniel" width="640" height="640" />
             </div>
             <div className="about-text">
                 <p className="leading-[1.75] text-[1.15rem] text-[#8a94a8] mb-[18px]">Soy <strong>Daniel López</strong>, desarrollador frontend con más de <strong>5 años de experiencia en diseño</strong>, maquetado y desarrollo web. Trabajo principalmente con <strong>HTML5, CSS3, Bootstrap y jQuery</strong>, y he complementado mi perfil con <strong>React y Tailwind CSS</strong> a nivel básico.</p>
