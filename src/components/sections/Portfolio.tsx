@@ -4,6 +4,7 @@ import Button from "../ui/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import CV from "../../assets/files/CV_Daniel_Lopez_Cribilleros_v2.pdf";
 
 const Portfolio = () => {
   return (
@@ -56,7 +57,7 @@ const Portfolio = () => {
                     <p className="text-[#8a94a8] text-[1.05rem] leading-[1.6]">Adicionalmente puede obtener información sobre mis estudios, habilidades y experiencia laboral descargando el siguiente currículum.</p>
                 </div>
                 <Button onClick={()=>{
-                    window.open("https://dlopezweb.com/assets/pdf/CVDanielLopez.pdf", "_blank");
+                    window.open(CV, "_blank");
                 }}><FontAwesomeIcon icon={faFile} className="text-[18px]" /> Descargar CV</Button>
             </div>
 
